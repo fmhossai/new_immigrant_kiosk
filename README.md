@@ -1,33 +1,24 @@
-# CPSC 481 Human-Computer Interaction
-## Group 3 - Immigrant Kiosk
+# New Immigrant Kiosk
 
-Group members:
+Contributors
+- Faisal Hossain
 - Jaza Khan
 - Minsu Kim
 - Girimer Singh
-- Faisal Hossain
 - Jesse Dirks
 
-### Deployed on Netlify 🚀
-https://new-immigrant-kiosk.netlify.app/
 
 ### Project information 📄
-**What cases/functions were implemented?**<br>
-At this point in time, only two services have been fully implemented: the Calgary Transit screens as well as the Alberta Health Services screens. The rest of the services will display an under development message.<br><br>
-These are some instructions meant to serve as an exact walkthrough for using the kiosk:<br>
-Upon starting, you will be met with a welcome screen. To proceed, you need to click the Get Started button. Here you will find a language selection screen. Click on a language to set it as your language of choice for the entire kiosk. Then you will be at the Services screen, at which point you are able to select a service to learn more about it. The only screen which requires direct user input at this time is the "Alberta Health Services > Hospitals" screen, in which you are able to enter some values into the required fields. 
-
+When new landing immigrants enter Canada, they may not know where to find the exact resources they need, such as transit or job information. In addition, when they do find the information, it is not in their native language. This project aims to create a kiosk application, that may be in areas such as airports, community centers and bus stations, that displays City of Calgary services for immigrants that are new to Calgary. It contains many essential services, such as planning a trip using Calgary Transit or finding the nearest health care services. This project displays this information in an easy to use interface with design concepts like Material design. 
 
 ### To run project locally 💻
 
-1. clone the repository
+1. Clone the repository
 
-2. install dependencies:<br>
-  open terminal<br>
-  cd to the directory you cloned the repository onto<br>
-  enter "npm install"<br>
+2. ```bash
+   npm install
+   ```
 
-3. to run:<br>
-in the same terminal in the same directory:<br>
-enter "npm run dev"<br>
-
+3. ```bash
+   npm run dev
+   ```
